@@ -1,0 +1,17 @@
+#word {
+  z-index: 1;
+  width: 40px;
+  height: 50px;
+  /*margin-top: 20%;*/
+  position: absolute;
+  float: left;
+  cursor: pointer;
+  animation: mymove 5s both;
+  opacity: 0;
+}
+#word:hover{
+  border:8px double blue;
+}
+@keyframes mymove {
+  to {opacity:1;}
+}
